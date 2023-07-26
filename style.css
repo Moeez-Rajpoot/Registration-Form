@@ -286,6 +286,26 @@ h2{
 
 }
 
+.error{
+
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
+    border-radius: 2px;
+    width: 250px;
+    color: rgb(0, 0, 0);
+    margin: 10px auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 7px 7px 11px -4px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 7px 7px 11px -4px rgba(255,255,255,0.75);
+    -moz-box-shadow: 7px 7px 11px -4px rgba(255,255,255,0.75);
+    transform: translateX(100%);
+    animation: moveleft 0.5s linear forwards
+
+}
+
 @keyframes moveleft {
 
     100%{
@@ -301,6 +321,12 @@ h2{
     font-size: 30px;
 }
 
+
+.error i{
+    padding: 10px;
+    color: rgb(251, 4, 0);
+    font-size: 30px;
+}
 .toast::after{
 
  content: " ";
